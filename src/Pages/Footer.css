@@ -43,4 +43,8 @@
   .footer-links li a:hover {
     color: #ffcc00;
   }
-  
+@media screen and (max-width: 768px){
+  .footer-links li a{
+    font-size: 12px;
+  }
+}

@@ -1,11 +1,11 @@
 
-.container{
+.home-container{
     display: flex;
     justify-content: space-evenly;
     height: 50%;
     flex-wrap: wrap;
 }
-.content{
+.home-content{
     width: 45%;
     display: flex;
     flex-direction: column;
@@ -19,6 +19,18 @@
     height: 30vh;
 }
 
-.image{
+.home-image{
     width: 45%;
+}
+@media screen and (max-width: 768px) {
+    .home-container{
+        display: flex;
+        flex-direction: column;
+        row-gap: 2vh;
+        align-items: center;
+    }
+    .home-content{
+        height: 100%;
+        width: 80vw;
+    }
 }

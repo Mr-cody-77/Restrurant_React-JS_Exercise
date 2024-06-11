@@ -8,6 +8,8 @@ import Footer from './Pages/Footer.js'
 import Orders from './Pages/Orders.js'
 import Login from './Pages/Login.js'
 import PrivacyPolicy from './Pages/PrivacyPolicy.js'
+import Termsandconditions from './Pages/Termsandconditions.js'
+import Contactus from './Pages/Contactus.js'
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Route exact path="/orders" Component={Orders}></Route>
           <Route exact path="/Login" Component={Login}></Route>
           <Route exact path="/PrivacyPolicy" Component={PrivacyPolicy}></Route>
+          <Route exact path="/Termsandconditions" Component={Termsandconditions}></Route>
+          <Route exact path="/Contactus" Component={Contactus}></Route>
         </Routes>
       </sw>
       <Footer/>

@@ -1,0 +1,52 @@
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.contact-us-container {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    /* align-items: center; */
+  }
+  
+  .contact-us-container h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin: 0;
+  }
+  
+  label {
+    margin: 0;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+ /* Adjust height according to your design */
+    height: 20vh;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
