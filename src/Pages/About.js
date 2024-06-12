@@ -4,21 +4,23 @@ import './About.css'; // Import CSS file for styling
 const About = () => {
   return (
     <div className="about-section">
-      <div className="aboutcontainer">
-        <div className="about-content">
-          <h2>About Us</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
-            Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
-            Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris
-            massa.
-          </p>
-          <p>
-            Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu
-            ad litora torquent per conubia nostra, per inceptos himenaeos.
-          </p>
-          <button className="btn">Learn More</button>
+      <div className="aboutAuthor">
+        <img src={require('../Images/author.jpeg')} alt="" />
+        <h1>Name</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In harum necessitatibus distinctio odio et qui, molestiae vel voluptatem iusto? Doloremque hic aliquam possimus ipsam, non atque at corrupti quos consequatur officiis, ducimus id eius porro ullam maiores earum iure Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, dicta soluta. Error aspernatur voluptas minima ad. Libero odit quidem error aut fuga pariatur sit quos ipsum, exercitationem perspiciatis reprehenderit nisi rem natus nulla voluptatibus dignissimos praesentium, quas possimus consequatur in magnam maxime aperiam. Eius, autem cupiditate veniam illo mollitia, ducimus blanditiis officiis saepe nihil nam nemo corporis iusto! Consequuntur magni dolore eligendi ratione dolorem ullam voluptatibus ea nam sit esse aspernatur, optio illo reprehenderit totam facilis, labore in animi placeat velit unde exercitationem. Adipisci debitis omnis expedita non doloribus repellat iure sed, voluptate sit aut tempore optio at! Dolores, accusantium?</p>
+      </div>
+      <div className="otherInfo">
+        <div className="aboutInfo">
+          <h2>heads</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, eligendi. Quaerat, enim accusamus! Quas adipisci, incidunt totam reiciendis excepturi numquam autem et a nesciunt facilis, asperiores delectus! Doloremque, nulla corrupti!</p>
+        </div>
+        <div className="aboutInfo">
+          <h2>heads</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, eligendi. Quaerat, enim accusamus! Quas adipisci, incidunt totam reiciendis excepturi numquam autem et a nesciunt facilis, asperiores delectus! Doloremque, nulla corrupti!</p>
+        </div>
+        <div className="aboutInfo">
+          <h2>heads</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, eligendi. Quaerat, enim accusamus! Quas adipisci, incidunt totam reiciendis excepturi numquam autem et a nesciunt facilis, asperiores delectus! Doloremque, nulla corrupti!</p>
         </div>
       </div>
     </div>

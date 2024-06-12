@@ -1,11 +1,11 @@
 /* Footer.css */
 
 .footer {
-    background-color: #333;
+    background-color: black;
     color: #fff;
-    position: absolute;
+    position: sticky;
     width: 100%;
-    bottom: 0;
+    bottom: 0px;
     display: flex;
     justify-content: center;
   }
@@ -15,7 +15,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 5vh;
   }
+
   .links{
     display: flex;
     justify-content: center;
@@ -38,12 +40,14 @@
     text-decoration: none;
     color: #242bf6;
     transition: color 0.3s ease;
+    margin: 0;
   }
   
   .footer-links li a:hover {
     color: #ffcc00;
   }
 @media screen and (max-width: 768px){
+
   .footer-links li a{
     font-size: 12px;
   }

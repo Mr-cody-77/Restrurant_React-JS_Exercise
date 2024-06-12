@@ -13,13 +13,16 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="container">
-        <h1>Coding Restruaunt</h1>
+        <div className="name">
+          <img src={require("../Images/logo.avif")} alt="" />
+          <h1>CodingRestaurant</h1>
+        </div>
         <div className={isOpen ? 'nav-links active' : 'nav-links'}>
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
-            <li><Link to="/orders">Orders</Link></li>
-            <li><Link to="/login">Login</Link></li>
+            <li><Link to="/menu">Menu</Link></li>
+            <li><Link to="/login">LOGIN</Link></li>
           </ul>
         </div>
         <div className="burger-menu" onClick={toggleMenu}>

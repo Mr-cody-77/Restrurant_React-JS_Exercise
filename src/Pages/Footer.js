@@ -15,7 +15,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-content">
-          <p>CopyRights &copy; {new Date().getFullYear()} Coding Restruant. All rights reserved.</p>
+          <p>&copy; Sonu-{new Date().getFullYear()} Coding Restaurant. All rights reserved.</p>
         </div>
       </div>
     </footer>

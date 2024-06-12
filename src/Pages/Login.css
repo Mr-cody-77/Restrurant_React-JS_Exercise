@@ -1,21 +1,32 @@
 .login-form-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
-  }
-  
-  .login-form {
-    background-color: #f8f9fa;
-    padding: 20px;
+    justify-content: space-evenly;
+    height: 80vh;
+    position: static;
+    top: 0px;
+    background-image: linear-gradient(45deg, black 10%,rgb(8, 68, 19) 70%, rgb(5, 119, 26) 100%);
+    color: white;
+    column-gap: 2vw;
+    }
+    
+.login-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 15px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    border: 1px solid white;
+    width: 30vw;
+    align-items: center;
+    height: 65vh;
   }
   
   .login-form h2 {
     text-align: center;
     margin-bottom: 20px;
+    color: white;
   }
   
   .form-group {
@@ -23,19 +34,32 @@
   }
   
   .form-group label {
-    display: block;
+    display:flex;
     margin-bottom: 5px;
+    color: white;
+
   }
   
   .form-group input {
-    width: 100%;
+    width: 29vw;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
   }
-  
+  .form-group input[type='text']{
+    width: 29vw;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .form-group input[type='email']{
+    width: 20vw;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
   .btn {
-    width: 100%;
+    width: 30px;
     padding: 10px;
     background-color: #007bff;
     color: #fff;
@@ -47,4 +71,36 @@
   .btn:hover {
     background-color: #0056b3;
   }
-  
+.joinpitch{
+  border-left: 1px solid white;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 60vh;
+  text-align: center;
+  margin-top:2vh ;
+  padding-left: 5vw;
+}
+@media screen and (max-width:768px){
+  .form-group input {
+    width: 55vw;
+  }
+  .form-group input[type='text']{
+    width: 55vw;
+  }
+  .form-group input[type='email']{
+    width: 55vw;
+  }
+  .login-form-container{
+    flex-direction: column;
+    row-gap: 2vh;
+    align-items: center;
+  }
+  .joinpitch{
+    display: none;
+  }
+  .login-form{
+    width: 60vw;
+  }
+}
